@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Moon+Dance&family=Roboto+Mono:ital,wght@1,200;1,400&display=swap');
+:root {
+    --primary-color: #98c6fa;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: block;
+    font-family:'Dancing Script', cursive;
+}
+
+    main {
+        margin: auto;
+        padding: 1rem;
+        max-width: var(--width-break);
+    }
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    min-height:20vh;
+    display: block;
+    margin-top:2rem;
+    font-size: large;
+    border :1px solid blue;
+    font-family: 'Dancing Script', cursive;
+font-weight: bold;
+    }
+    
+    #output {
+        box-sizing: box;
+    border :1px solid blue;
+    min-height: 20vh;
+    width :100%;
+        font-size: larger;
+        font-family: 'Dancing Script', cursive;
+        font-weight:bold;
+    }
+    button {
+        background-color: var(--primary-color);
+        border :none;
+        margin:1rem 0rem;
+        padding:1rem 2rem;
+        font-size: large;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bolder;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--primary-color);
+        text-align: center;
+    }
+    
+    footer p {
+        max-width: var(--width-break);
+        margin: auto;
+    }
